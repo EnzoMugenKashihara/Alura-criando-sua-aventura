@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Em um dia qualquer,você decide que iria sair de casa e dar uma caminhada,explorando a sua cidade.</p>
+            <button class="btn-proximo" data-proximo="1">Ir para um oceano.</button>
+            <button class="btn-proximo" data-proximo="2">Ir para uma estação.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>você chega em um oceano e você avista uma floresta e uma ilha no meio do mar.</p>
+            <button class="btn-proximo" data-proximo="3">Ir para a ilha.</button>
+            <button class="btn-proximo" data-proximo="4">Ir para a floresta.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p> você encontra uma estação de trem e você possui dois lugares em mente que você quer ir.</p>
+            <button class="btn-proximo" data-proximo="5">Ir para a LIberdade.</button>
+            <button class="btn-proximo" data-proximo="6">Ir para a Itaquera.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>você vai até a ilha e encontra um mapa em uma garrafa.</p>
+            <button class="btn-proximo" data-proximo="7">Utilizar o mapa.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>você vai para a floresta,mas você percebe que é denso demais para poder atravessar,então você volta.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <pNas>você chega até a Liberdade,você está tão perdido que você simplesmente segue um caminho qualquer.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir caminho.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>você chega até a Itaquera você decide explorar o local.</p>
+            <button class="btn-proximo" data-proximo="8">Explorar local.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>você chega até um parque ecológico(é melhor do que continuar perdido).</p>
+            <button class="btn-proximo" data-proximo="9">Sair para explorar.</button>
+            <button class="btn-proximo" data-proximo="10">Ficar para explorar.</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>você da uma volta e você não percebe que saiu do metro Itaquera e começou a caminhar em uma direção aleatório.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir o caminho.</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>você sai para explorar e você vê de longe algo interessante.</p>
+            <button class="btn-proximo" data-proximo="11">Ir para o local.</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>você fica para explorar,mas você já estava cansado e encontra um restaurante.</p>
+            <button class="btn-proximo" data-proximo="12">Ir para o restaurante.</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo12-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>quando você chega ao local você percebe que voltou de onde você começou.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>depois de comprar algo para comer você vê de longe algo interessante.</p>
+            <button class="btn-proximo" data-proximo="11">Ir para o local.</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
